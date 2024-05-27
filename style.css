@@ -1,0 +1,142 @@
+body{
+    background-image: url(img/riv1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100px;
+    background-color: rgb(181, 143, 89);
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 15px;
+}
+
+td{
+    width: 6000px;
+    height: auto;
+    vertical-align: top;
+}
+
+nav {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.inizio{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width:100%;
+
+}
+
+.inizio2{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width:100%;
+    margin-top: 130px;
+}
+
+#titolo1{
+    margin-top: 120px;
+    text-align: center;
+    color:rgb(251, 228, 144);
+}
+
+.barra{
+    background-color: black;
+    position:fixed;
+    top:0%;
+    left:0;
+    width:100%;
+    padding: 15px 0;
+    color:white;
+}
+
+.barra a:hover{
+    background-color: grey;
+    font-size: 15pt;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+.link{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+
+#logo{
+    width: 15%;
+    border-radius: 100%;
+
+}
+
+#titolo{
+    text-align: center;
+    color:rgb(146, 0, 0);
+    margin-top: 10px;
+}
+
+
+#tabella{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#immpag1{
+    width:60%;
+    height:60%; 
+}
+
+#immpag2{
+    width: 70%;
+    height: 70%;
+}
+
+#immpag3{
+    width: 65%;
+    height:65%;
+}
+
+.contenuto{
+    text-align: center;
+    width: 50%;
+	margin: auto;
+
+    
+}
+
+#figura{
+    color:purple;
+}
+
+#immagini{
+    width: 50%;
+    height: 50%;
+}
+
+.rtrie{
+    width: 150%;
+    height: 150%;
+}
